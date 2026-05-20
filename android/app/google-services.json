@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "761105631689",
+    "project_id": "bomberman-1cbdc",
+    "storage_bucket": "bomberman-1cbdc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761105631689:android:01d42fe4616cf9a2a34018",
+        "android_client_info": {
+          "package_name": "com.example.bomberman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU9n8HYgNxP24vzyKwZbXj12n7yNRKiao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

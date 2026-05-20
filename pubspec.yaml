@@ -1,0 +1,39 @@
+name: bomberman
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^4.6.0
+  firebase_auth: ^6.3.0
+  cloud_firestore: ^6.2.0
+  image_picker: ^1.2.1
+  http: ^1.6.0
+  audioplayers: ^6.5.1
+  shared_preferences: ^2.5.3
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/LOGO.png
+    - assets/audio/bg_music.mp3
+    - assets/audio/explosion.mp3
+    - assets/audio/bomb.mp3
+    - assets/audio/button.mp3
+    - assets/audio/gameover.mp3
+    - assets/audio/pickup.mp3
+    - assets/audio/win.mp3
