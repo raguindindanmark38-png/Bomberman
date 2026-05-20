@@ -68,7 +68,7 @@ class _GameScreenState extends State<GameScreen> {
     } else if (widget.difficulty == 'MEDIUM') {
       bombCount = 7;
     } else {
-      bombCount = 3;
+      bombCount = 7;
     }
   }
 

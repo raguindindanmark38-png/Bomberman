@@ -179,7 +179,7 @@ class _HomePageState extends State<HomePage> {
     } else if (difficultyText == 'MEDIUM') {
       info = '4 BOTS • 7 BOMBS';
     } else {
-      info = '7 BOTS • 3 BOMBS';
+      info = '7 BOTS • 7 BOMBS';
     }
 
     return Text(

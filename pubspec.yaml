@@ -1,6 +1,7 @@
 name: bomberman
 description: "A new Flutter project."
 publish_to: 'none'
+
 version: 1.0.0+1
 
 environment:
@@ -24,6 +25,14 @@ dev_dependencies:
     sdk: flutter
 
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/LOGO.png"
+  adaptive_icon_background: "#545050"
+  adaptive_icon_foreground: "assets/images/LOGO.png"
 
 flutter:
   uses-material-design: true
